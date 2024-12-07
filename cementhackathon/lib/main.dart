@@ -60,14 +60,11 @@ class MyApp extends StatelessWidget {
             Routes.settings: (context) => SettingsScreen(),
             Routes.CreateVisitPage: (context) => CreateVisitPage(),
             Routes.CreateClientPage: (context) => CreateClientPage(),
-
             Routes.historyStat: (context) => HistoryStats(),
             Routes.rateStat: (context) => RateStats(),
             Routes.stats_page: (context) => StatisticsPage(),
-
             Routes.products_screen: (context) => ProductScreen(),
             Routes.SplashScreen: (context) => SplashScreen(),
-
             Routes.maps: (context) => const MapScreen()
 
             // Routes.forgotPassword: (context) => const ForgotPasswordScreen(),
