@@ -191,24 +191,11 @@ class _SidebarState extends State<Sidebar> {
                     const Divider(
                         color: Color(0xFFF6F6F6), height: 32, thickness: 1),
 
-                    // Settings Dropdown
-                    _buildDropdownItem(
+                   _buildNavItem(
                       icon: Icons.settings,
-                      label: 'Paramètres',
-                      isExpanded: isSettingsExpanded,
-                      onToggle: () => setState(() {
-                        isSettingsExpanded = !isSettingsExpanded;
-                      }),
-                      children: [
-                        GestureDetector(
-                          onTap: () =>
-                              Navigator.pushNamed(context, Routes.settings),
-                          child: const Padding(
-                            padding: EdgeInsets.symmetric(vertical: 8),
-                            child: Text('Paramètres'),
-                          ),
-                        ),
-                      ],
+                      label: 'Parametre',
+                      onTap: () =>
+                          Navigator.pushNamed(context, Routes.settings),
                     ),
                     const Spacer(),
 

@@ -71,7 +71,7 @@ class MyApp extends StatelessWidget {
             // Routes.forgotPasswordOtp: (context) => const ForgotPasswordOtpScreen(),
             //Routes.main: (context) => const MainScreen(),
           },
-          initialRoute: Routes.SplashScreen,
+          initialRoute: Routes.home,
         ));
   }
 }
